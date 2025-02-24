@@ -1,0 +1,55 @@
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* Define animation top strip*/
+@keyframes marquee {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+  }
+  
+  /* Apply animation to the moving text */
+  .marquee {
+    animation: marquee 25s linear infinite;
+  }
+  
+  /* Define the hero text fade in animation */
+/* @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0px);
+
+    }
+  } */
+  
+  /* Apply animation to the text */
+  .hero-text-container {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+   
+  }
+  .hero-text-container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+.lazy-image {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.lazy-image.show {
+  opacity: 1;
+  transform: translateY(0);
+}

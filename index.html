@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- https://www.wix.com/demone2/ryst -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cycle house rm</title>
+    <!-- Include Swiper.js CDN -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <script src="./src/productbind.js" defer></script>
+
+    <script src="./src/script.js" defer></script>
+</head>
+<body class="font-['Roboto',sans-serif]">
+   <header class="bg-[#d3d4c7]">
+
+    <div class="header-container flex items-center justify-between text-black shadow-2xl h-[3rem]">
+
+        <div class="logo ml-4 flex items-center">
+         <img class="w-[50px] h-[50px]" src="./assets/images/bg-shoes-logo.png" alt="logo">
+          <h3 class="text-2xl ml-[1rem]">BG shoes </h3>
+        </div>
+         <div class="flex items-center gap-1 sm:gap-8 relative">
+          <div class="head-input border border-black rounded-full max-w-[300px] h-[2rem] hidden sm:flex shrink-0 items-center gap-2 relative">
+            <img id="search-icon" class="w-[20px] ml-2 h-[20px] cursor-pointer" src="./assets/icons/search-interface-symbol.png" alt="search-interface-symbol">
+            <input id="search-input" class="outline-none border-none p-2 w-full" type="text" placeholder="Search here">
+            <ul id="suggestions-list" class="absolute top-[40px] left-0 w-full bg-white border border-gray-300 rounded-md hidden shadow-lg z-20"></ul>
+        </div>
+
+            <img class="heart-icon  w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/heart.png" alt="heart-icon">
+            <img class="cart-icon w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/shopping-cart.png" alt="shopping-cart-icon">
+            <img class="hamburger-icon cursor-pointer bg-transparent rounded-full hover:bg-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] transition-all mr-[1rem] w-[20px] ml-2  h-[20px]" src="./assets/icons/hamburger.png" alt="hamburger">
+             <div class="menu-bar z-10 hidden absolute top-[3rem]  right-[1rem] h-[200px] md:h-[300px] w-[200px] md:max-w-[300px]  border border-black bg-amber-100">
+              <i id="close-menu-bar"  class="fa-solid fa-x absolute right-4 top-4 cursor-pointer transition-transform duration-200 ease-in-out  hover:rotate-180"></i>
+             
+                <ul id="" class="px-4  py-4 flex flex-col gap-2 md:gap-6">
+                  <li class="cursor-pointer">
+                    <a href="index.html" class="hover:underline">Home</a>
+                  </li>
+                  <li class=" relative cursor-pointer group">
+                    <a href="#" class="hover:underline">Shop By Category</a>
+                    <span class="transition-transform duration-200 ease-in-out inline-block">
+                      <i id="dropdown-bar" class="fa-solid fa-caret-down text-xl ml-auto"></i>
+                    </span>
+                    <!-- Dropdown Menu -->
+                    <ul id="category-list" class="px-4 hidden py-4 absolute left-0  bg-white border group-hover:opacity-100 transition-opacity duration-300">
+                      <li><a href="allproducts.html?category=Mens" class="hover:underline">Mens</a></li>
+                      <li><a href="allproducts.html?category=Womens" class="hover:underline">Women</a></li>
+                      <li><a href="allproducts.html?category=Kids" class="hover:underline">Kids</a></li>
+                      <li><a href="#" class="hover:underline">Sneakers</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#" class="hover:underline">Offers</a></li>
+                  <li><a href="#" class="hover:underline">New Arrivals</a></li>
+                  <li><a href="#" class="hover:underline">Contact</a></li>
+                  <li><a href="#" class="hover:underline">About Us</a></li>
+                </ul>
+              </div>
+              
+              <div class="cart-list z-10 hidden absolute w-[280px] md:max-w-[400px] min-h-[150px] md:min-h-[200px] border bg-amber-100 right-[1rem] md:right-[3rem] top-[3rem] ">
+              <i id="close-cart-list"  class="fa-solid fa-x absolute top-1 right-1 cursor-pointer transition-transform duration-200 ease-in-out  hover:rotate-180"></i>
+             
+                <ul class="px-4  py-4 flex flex-col gap-6">
+                  <li id="cart-item" class="cursor-pointer">
+                    <a href="#" class="hover:underline">Jordan 6 price: <span class="pl-4">RS 100,000</span> <i id="remove-cart-item" class="fa-solid fa-delete-left pl-4"></i></a>
+                  </li>
+                </ul>
+                  
+              </div>
+              
+             </div>
+         
+       
+    </div>
+   </header>
+   <section style="background-image: url(./assets/images/hero-shoe-image.avif);" class="hero flex md:flex-row flex-col h-screen bg-cover bg-center bg-fixed">
+            <div class="container ">
+                <div class="hero-text-container pt-10 md:pt-20 pl-5 md:pl-10">
+                    <h1 class="text-3xl sm:text-5xl text-[#003366] font-bold">"Ride Beyond Limits"</h1>
+                    <h3 class="text-2xl sm:text-3xl mt-10">Ride in Comfort, Perform with Power</h3>
+                    <a href="allproducts.html?category=Allproducts">
+
+                      <button class="hover:bg-amber-400 bg-amber-200 cursor-pointer py-4 px-4 w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center mt-10">Shop Now</button>
+
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image-container lazy-image px-4 items-center justify-center flex-col sm:flex-row flex sm:block  max-w-[750px] w-full h-full">
+               
+                <div class="image-container rounded-3xl p-4 max-w-[400px] sm:max-w-[540px] min-h-[250px] sm:h-[270px] flex sm:flex-row flex-col  bg-[#cdc8bd] ml-4 sm:ml-8   mt-8 md:mt-84 mb-[3rem]">
+                    
+                    <img id="hero-image" class=" w-[300px] sm:max-w-[350px] h-[200px] sm:h-full " src="https://static.wixstatic.com/media/c837a6_60f18667fe64458eb7ab6a131d3354d4~mv2.jpg/v1/fill/w_434,h_325,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_60f18667fe64458eb7ab6a131d3354d4~mv2.jpg" alt="cycle-hero-box">
+                   <div class="flex flex-row sm:flex-col items-center justify-between">
+                    <div class="image-text py-4">
+                        <h4 class="text-xl sm:text-2xl  pl-4 font-bold">Jordan 4</h4>
+                    <p class="text-[16px] pl-4">RS 100,000</p>
+                    </div>
+                    <a>
+                      <button class="hover:bg-amber-400 add-to-cart hover:text-black text-white ml-0 sm:ml-4 mb-[1rem] bg-black cursor-pointer py-0 sm:py-4 px-4 w-[130px] sm:w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center">Add to cart</button>
+
+                    </a>
+                   </div>
+                </div>
+
+            </div>
+   </section>
+   <section class="best-selling py-8 bg-[#000000a8] text-white">
+   <div class="flex items-center justify-between mx-4">
+    <h1 class="text-xl sm:text-2xl font-bold">Best Selling Shoes</h1>
+    <Button class="hover:bg-amber-400 text-black bg-amber-200 cursor-pointer py-4 px-4 w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center">View All</Button>
+ </div>
+     
+ <template id="best-sell-template">
+  <div class="swiper-slide best-sell-card cursor-pointer mb-13  w-[250px] md:w-[350px] h-[350px] md:h-[450px]">
+    <a href="" class="block w-full h-full">
+      <img src=""  alt="Junior sport" class="!max-w-[75%] hover:scale-105 duration-300 h-full object-cover">
+    </a>
+    <h3 class="font-bold text-xl pt-2 text-center">Junior sport</h3>
+    <p class=" text-center">RS 100,000</p>
+  </div>
+</template>
+
+<!-- Swiper Container -->
+ 
+<div class="swiper mySwiper w-full max-w-screen px-4 flex items-center mt-8">
+  <div class="swiper-wrapper best-sell-container max-w-[1000px] w-full ml-10">
+    <!-- Products will be added here dynamically -->
+  </div>
+  
+  <!-- Swiper Navigation -->
+  <div class="swiper-button-next !hidden !sm:block !top-[37%]"></div>
+  <div class="swiper-button-prev !hidden !sm:block !top-[37%]"></div>
+
+  <!-- Swiper Pagination -->
+  <div class="swiper-pagination"></div>
+</div>
+
+   </section>
+   <section style="background-image: url(./assets/images/shoe\ discount.avif);" class="hero flex md:flex-row flex-col h-screen bg-cover bg-center bg-fixed">
+    <div class="container ">
+        <div class="hero-text-container  pt-10 md:pt-20 pl-5 md:pl-8">
+            <h1 class="text-3xl sm:text-5xl  font-bold"> 50% discount for returning customer.</h1>
+            <h3 class="text-2xl sm:text-3xl mt-10">Exclusive offer</h3>
+            <a href="allproducts.html?category=Allproducts">
+
+              <button class="hover:bg-amber-400 bg-amber-200 cursor-pointer py-4 px-4 w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center mt-10">Shop Now</button>
+            </a>
+        </div>
+    </div>
+    <div class="hero-image-container lazy-image mr-4 items-center justify-center flex-col sm:flex-row flex sm:block text-white max-w-[750px] w-full h-full">
+       
+        <div class="image-container rounded-3xl p-4 max-w-[400px] sm:max-w-[540px] min-h-[250px]  sm:h-[300px] flex sm:flex-row flex-col  bg-[#2d2a2ae0] mx-[18px]  mt-8 md:mt-84 mb-[3rem]">
+            
+            <img class="w-[300px] sm:max-w-[350px] h-[200px] sm:h-full " src="https://static.wixstatic.com/media/c837a6_60f18667fe64458eb7ab6a131d3354d4~mv2.jpg/v1/fill/w_434,h_325,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_60f18667fe64458eb7ab6a131d3354d4~mv2.jpg" alt="cycle-hero-box">
+           <div class="flex flex-row sm:flex-col items-center justify-between">
+            <div class="image-text py-4">
+                <h4 class="text-xl sm:text-2xl  pl-4 font-bold">Speed cycle</h4>
+            <p class="text-[16px] pl-4">RS 100,000</p>
+            </div>
+            <button class="hover:bg-amber-400 add-to-cart hover:text-black ml-0 sm:ml-4 mb-[1rem] bg-black cursor-pointer py-0 sm:py-4 px-4 w-[130px] sm:w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center">Add to cart</button>
+           </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="shoe-collection py-8">
+    <div class="flex items-center justify-between mx-4">
+       <h1>Exclusive Shoes</h1>
+       <Button class="hover:bg-amber-400 bg-amber-200 cursor-pointer py-4 px-4 w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center">View All</Button>
+    </div>
+        
+    <div class="image-container w-full flex flex-wrap items-center gap-6 justify-center my-6 max-w-screen px-4">
+      
+      <div class="card-image cursor-pointer  mb-[172px]  hover:scale-105 duration-300 w-[250px] md:w-[450px]  h-[350px] md:h-[400px]">
+        <a href="allProducts.html?category=Kids">
+
+          <img class=" w-[400px] h-[370px] md:h-[485px]" src="/assets/images/kids-section.jpg" alt="kid-section">
+        </a>
+             <h3 class="font-bold text-center text-xl pt-2">Kids section</h3>
+      </div>
+      
+      <div class="card-image cursor-pointer  mb-[172px]  hover:scale-105 duration-300 w-[250px] md:w-[450px]  h-[350px] md:h-[400px]">
+             <a href="allProducts.html?category=Men">
+               <img class="w-[400px] h-[370px]  md:h-[485px]" src="/assets/images/mens-section.jpg" alt="womens-section">
+              
+             </a>
+             <h3 class="font-bold text-center text-xl pt-2">Men section</h3>
+      </div>
+      <div class="card-image cursor-pointer  mb-[172px]  hover:scale-105 duration-300 w-[250px] md:w-[450px]  h-[350px] md:h-[400px]">
+        <a href="allProducts.html?category=Womens">
+          <img class="w-[400px] h-[370px]  md:h-[485px]" src="/assets/images/womens-section.jpg" alt="mens-section">
+
+        </a>     
+             <h3 class="font-bold text-xl pt-2 text-center">Women Section</h3>
+      </div>
+      
+     
+    </div>
+   
+      </section>
+      <section style="background-image: url(./assets/images/footer\ img.avif);" class="hero flex md:flex-row flex-col h-screen bg-cover bg-center bg-fixed">
+        <div class="container ">
+            <div class="hero-text-container pt-10 md:pt-20 pl-5 md:pl-10">
+                <h1 class="text-3xl sm:text-5xl  font-bold">Committed to sustainibility</h1>
+                <h3 class="text-2xl sm:text-3xl mt-10">Exclusive offer</h3>
+                <a href="allproducts.html?category=Allproducts">
+
+                  <button class="hover:bg-amber-400 bg-amber-200 cursor-pointer py-4 px-4 w-[140px] h-[2rem] border flex items-center justify-center  rounded-full text-center mt-10">Shop Now</button>
+                </a>
+            </div>
+        </div>
+        <div class="message-container lazy-image px-4  items-center justify-center flex-col  flex sm:block text-white max-w-[750px] w-full h-full">
+           
+            <div class="container p-4  rounded-3xl  max-w-[400px] sm:max-w-[500px] min-h-[250px] sm:min-h-[300px] ml-8   mt-8   bg-black opacity-[0.7] mx-2 md:ml-auto my-auto md:mt-84 mb-[3rem]">
+                <p>WALK WITH US TOWARDS A GREENER PLANET, ONE STEP AT A TIME</p>
+                 <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam pariatur recusandae voluptate molestiae distinctio sint saepe? Corporis, libero impedit doloribus ab dolorem possimus, ipsam eos velit dolores eligendi distinctio reprehenderit!</p>
+                 <a class="flex items-center justify-center group mt-8" href="#"><button class="group-hover:bg-amber-300 hover:text-black px-2 py-0.5 my-auto mx-auto border-white cursor-pointer border rounded-full">About US</button></a>
+            </div>
+    
+        </div>
+    </section> 
+    <h1 class="text-3xl sm:text-5xl text-[#003366] my-4 font-bold text-center">Customer Review</h1>
+   
+      <section class="Review my-8">
+        <div class="review-card-container lazy-image flex flex-wrap lg:flex-row md:flex-row flex-col justify-center  items-center  ">
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          <div class="review-card bg-[#d5d5d5] mb-8 mx-6 p-4 max-w-[650px] md:max-w-[600px] lg:max-w-[350px] min-h-[200px] border">
+            <div class="rating flex gap-4 pb-4 ">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+              <img class="w-[20px] cursor-pointer" src="./assets/images/star.png" alt="star-icon">
+            </div>
+          
+            <div class="review-card-text pb-4">
+              <p class="text-sm" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos aliquid
+                natus consequuntur. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit sapiente ab tempore, eveniet cupiditate excepturi mollitia. Aut provident exercitationem voluptates!
+              </p>
+            </div>
+            <div class="review-card-image   w-full flex items-center">
+              <img class="w-[50px] h-[50px] bg-center bg-cover object-fill rounded-full" src="./assets/images/my-image.jpg" alt="Review img" />
+               <p class="pl-4 text-xl text-gray-800 font-bold">Roshan Pokharel</p>
+            </div>
+          </div>
+          
+          
+        </div>
+      </section>
+       <section class="about-section max-w-[1200px] w-full mx-auto">
+          <div class="flex-about justify-center sm:justify-between flex-wrap flex px-6">
+            <div class="shop-card ">
+              <h1 class="text-2xl mb-[20px] font-bold">Shop</h1>
+
+            </div>
+            <div class="shop-card">
+              <h1 class="text-2xl mb-[20px] font-bold">Deals</h1>
+
+              <div class="shop-links flex-col flex gap-4 ">
+                <ul class="text-[20px] text-blue-500 ">
+                  <li class="cursor-pointer hover:underline">
+                  <a href="#">Hot deals</a>
+                 </li class="cursor-pointer hover:underline">
+                  <li>
+                  <a href="#" class="cursor-pointer hover:underline">Hot deals</a>
+                 </li>
+                  <li class="cursor-pointer hover:underline">
+                  <a href="#">categories</a>
+                 </li>
+                  <li class="cursor-pointer hover:underline">
+                  <a href="#">Festival Offers</a>
+                 </li>
+                  
+                
+                </ul>
+                    
+              </div>
+            </div>
+            <div class="shop-card">
+              <h1 class="text-2xl mb-[20px] font-bold">Any help?</h1>
+
+              <div class="shop-links flex-col flex gap-4 ">
+                <ul class="text-[20px] text-blue-500 ">
+                  <li class="cursor-pointer hover:underline">
+                  <a href="#">Order tracking</a>
+                 </li class="cursor-pointer hover:underline">
+                  <li>
+                  <a href="#" class="cursor-pointer hover:underline">policy</a>
+                 </li>
+                  <li class="cursor-pointer hover:underline">
+                  <a href="#">Return policy</a>
+                 </li>
+                
+                
+                </ul>
+              </div>
+            </div>
+            <div class="shop-contact">
+              <h1 class="text-2xl mb-[20px] font-bold">Contact Us</h1>
+
+              <div class="contact-links flex-col flex gap-4 ">
+                     <ul class="text-[20px] text-blue-500 ">
+                      <li class="cursor-pointer hover:underline">
+                      <a href="#">bheshraj999@gmail.com</a>
+                     </li class="cursor-pointer hover:underline">
+                      <li>
+                      9800200000
+                     </li>
+                      
+                    
+                    </ul>
+              </div>
+            </div>
+          </div>
+       </section>
+       <footer class="bg-black text-white text-center py-4 mt-4">
+        <p>&copy; 2025 Bheshraj Ghimire. All rights reserved.</p>
+        <div class="flex justify-center gap-4 mt-2">
+          <img src="https://esewa.com.np/common/images/esewa_logo.png" alt="eSewa" class="h-8">
+          <img src="https://khalti-static.s3.ap-south-1.amazonaws.com/cloudfront-cdn/jamara/web19/images/khalti-logo.svg" alt="eSewa" class="h-8">
+      </div>
+    </footer>
+    
+</body>
+</html>
