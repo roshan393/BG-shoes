@@ -1,6 +1,5 @@
 *{
-    /* margin: 0; */
-    /* padding: 0; */
+   
     box-sizing: border-box;
 }
 
@@ -19,19 +18,7 @@
     animation: marquee 25s linear infinite;
   }
   
-  /* Define the hero text fade in animation */
-/* @keyframes fadeIn {
-    from {
-      opacity: 0;
-      transform: translateY(40px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0px);
-
-    }
-  } */
-  
+ 
   /* Apply animation to the text */
   .hero-text-container {
     opacity: 0;

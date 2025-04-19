@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BG Shoes</title>
+    <meta name="description" content="BG shoes house official website for all your footwear needs from Nepal, Butwal-9.">
+    <meta name="robots" content="index,follow">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
     <link rel="stylesheet" href="./src/output.css">
@@ -16,19 +18,18 @@
     <div class="header-container flex items-center justify-between text-black shadow-2xl h-[3rem]">
 
         <div class="logo ml-4 flex items-center">
-         <img class="w-[50px] h-[50px]" src="./assets/images/bg-shoes-logo.png" alt="logo">
+         <img loading="lazy"loading="lazy" class="w-[50px] h-[50px]" src="./assets/images/bg-shoes-logo.png" alt="logo">
           <h3 class="text-2xl ml-[1rem]">BG shoes </h3>
         </div>
          <div class="flex items-center gap-1 sm:gap-8 relative">
           <div class="head-input border border-black rounded-full max-w-[300px] h-[2rem] hidden sm:flex shrink-0 items-center gap-2 relative">
-            <img id="search-icon" class="w-[20px] ml-2 h-[20px] cursor-pointer" src="./assets/icons/search-interface-symbol.png" alt="search-interface-symbol">
+            <img loading="lazy"id="search-icon" class="w-[20px] ml-2 h-[20px] cursor-pointer" src="./assets/icons/search-interface-symbol.png" alt="search-interface-symbol">
             <input id="search-input" class="outline-none border-none p-2 w-full" type="text" placeholder="Search here">
             <ul id="suggestions-list" class="absolute top-[40px] left-0 w-full bg-white border border-gray-300 rounded-md hidden shadow-lg z-20"></ul>
         </div>
 
-            <img class="heart-icon  w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/heart.png" alt="heart-icon">
-            <img class="cart-icon w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/shopping-cart.png" alt="shopping-cart-icon">
-            <img class="hamburger-icon cursor-pointer bg-transparent rounded-full hover:bg-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] transition-all mr-[1rem] w-[20px] ml-2  h-[20px]" src="./assets/icons/hamburger.png" alt="hamburger">
+            <img loading="lazy"class="heart-icon  w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/heart.png" alt="heart-icon">
+            <img loading="lazy"class="hamburger-icon cursor-pointer bg-transparent rounded-full hover:bg-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] transition-all mr-[1rem] w-[20px] ml-2  h-[20px]" src="./assets/icons/hamburger.png" alt="hamburger">
              <div class="menu-bar z-10 hidden absolute top-[3rem]  right-[1rem] h-[200px] md:h-[300px] w-[200px] md:max-w-[300px]  border border-black bg-amber-100">
               <i id="close-menu-bar"  class="fa-solid fa-x absolute right-4 top-4 cursor-pointer transition-transform duration-200 ease-in-out  hover:rotate-180"></i>
              
@@ -37,7 +38,7 @@
                     <a href="index.html" class="hover:underline">Home</a>
                   </li>
                   <li class=" relative cursor-pointer group">
-                    <a href="#" class="hover:underline">Shop By Category</a>
+                    <a href="#" class="">Shop By Category</a>
                     <span class="transition-transform duration-200 ease-in-out inline-block">
                       <i id="dropdown-bar" class="fa-solid fa-caret-down text-xl ml-auto"></i>
                     </span>
@@ -46,13 +47,11 @@
                       <li><a href="allproducts.html?category=Mens" class="hover:underline">Mens</a></li>
                       <li><a href="allproducts.html?category=Womens" class="hover:underline">Women</a></li>
                       <li><a href="allproducts.html?category=Kids" class="hover:underline">Kids</a></li>
-                      <li><a href="#" class="hover:underline">Sneakers</a></li>
                     </ul>
                   </li>
-                  <li><a href="#" class="hover:underline">Offers</a></li>
-                  <li><a href="#" class="hover:underline">New Arrivals</a></li>
-                  <li><a href="#" class="hover:underline">Contact</a></li>
-                  <li><a href="#" class="hover:underline">About Us</a></li>
+                  <li><a href="allProducts.html?category=Allproducts" class="hover:underline">New Arrivals</a></li>
+                  <li><a href="index.html#footer" class="hover:underline">Contact</a></li>
+                  <li><a href="about.html" class="hover:underline">About Us</a></li>
                 </ul>
               </div>
               
@@ -73,61 +72,60 @@
     </div>
    </header>
 
-       <section class="product-section justify-center max-w-screen p-8 w-full bg-amber-200 min-h-[100vh] items-center sm:items-start flex sm:flex-row flex-col gap-8">
-        <!-- Image Container -->
-        <div class="image-container overflow-hidden flex">
-          <img id="product-image" class="hover:scale-105 duration-500 w-[250px] sm:w-[315px] h-[250px] sm:h-[415px] rounded-lg shadow-lg" 
-            src="https://static.wixstatic.com/media/c837a6_d5d6c4b1bc34415c96ace48bc4465ff2~mv2.jpg/v1/fill/w_375,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_d5d6c4b1bc34415c96ace48bc4465ff2~mv2.jpg" 
-            alt="">
+   <section class="product-section flex justify-center items-center min-h-screen bg-gradient-to-br from-amber-100 to-orange-200 p-8">
+    <div class="product-card bg-white rounded-xl shadow-lg p-8 w-full max-w-5xl flex flex-col sm:flex-row gap-8 border border-gray-200">
+      <!-- Image Container -->
+      <div class="image-container overflow-hidden flex">
+        <img loading="lazy"id="product-image" class="hover:scale-105 duration-500 w-[250px] sm:w-[315px] h-[250px] sm:h-[415px] rounded-lg shadow-md" 
+          src="https://static.wixstatic.com/media/c837a6_d5d6c4b1bc34415c96ace48bc4465ff2~mv2.jpg/v1/fill/w_375,h_500,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/c837a6_d5d6c4b1bc34415c96ace48bc4465ff2~mv2.jpg" 
+          alt="">
+      </div>
+    
+      <!-- Product Details -->
+      <div class="product-detail-container flex flex-col w-full sm:w-1/2">
+        <h2 id="product-name" class="text-xl md:text-2xl font-bold my-4 transition-all duration-300 hover:text-amber-600">
+          Product Name
+        </h2>
+        <p id="product-price" class="font-bold text-black opacity-100 hover:opacity-70 transition-opacity duration-300">
+          Price: <span>RS 100 <span class="line-through ml-4 text-gray-500">Rs 120</span></span>
+        </p>
+    
+        <!-- Buttons -->
+        <div class="buttons flex flex-wrap">
+          <a href="#">
+            <button id="buyButton" class="px-6 py-3 rounded-md my-4 mx-2 bg-black text-white hover:bg-amber-400 hover:text-black cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-md">
+              Buy Now
+            </button>
+          </a>
+          
         </div>
-      
-        <!-- Product Details -->
-        <div class="product-detail-container flex flex-col min-h-full w-full sm:w-1/2">
-          <h2 id="product-name" class="text-xl md:text-2xl font-bold my-4 transition-all duration-300 hover:text-amber-600">Product Name</h2>
-          <p id="product-price" class="font-bold text-black opacity-100 hover:opacity-70 transition-opacity duration-300">
-            Price: <span>RS 100 <span class="line-through ml-4">Rs 120</span></span>
-          </p>
-      
-          <!-- Buttons -->
-          <div class="buttons flex flex-wrap">
-            <a href="">
-              <button id="buyButton" class="px-6 py-3 rounded-md my-4 mx-2 bg-black text-white hover:bg-amber-400 hover:text-black cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-md">
-                Buy Now
-              </button>
-            </a>
-            <a href="">
-              <button class="add-to-cart px-6 py-3 rounded-md my-4 mx-2 bg-black text-white hover:bg-amber-400 hover:text-black cursor-pointer transition-all duration-300 transform hover:scale-105 shadow-md">
-                Add to Cart
-              </button>
-            </a>
-          </div>
-      
-          <!-- Rating Section -->
-          <div class="rating-container mx-2 flex items-center max-w-1/2 justify-between">
-            <p class="text-lg font-semibold">Rating</p>
-            <div class="star-container flex gap-1 ml-2">
-              <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
-              <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
-              <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
-              <span class="fa fa-star text-gray-400 cursor-pointer hover:text-yellow-500 hover:scale-110 transition-transform duration-300"></span>
-              <span class="fa fa-star text-gray-400 cursor-pointer hover:text-yellow-500 hover:scale-110 transition-transform duration-300"></span>
-            </div>
-          </div>
-      
-          <!-- Offer Box -->
-          <div class="offer-box p-4 min-h-[200px] max-w-[400px] w-full my-4 border border-black rounded-md bg-white shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[102%]">
-            <p class="font-semibold text-lg">Offers</p>
-            <ul class="list-disc ml-4 text-sm text-gray-600">
-              <li>10% off on first purchase</li>
-              <li>Free shipping on orders above Rs 500</li>
-              <li>Limited-time discount on selected items</li>
-            </ul>
+    
+        <!-- Rating Section -->
+        <div class="rating-container mx-2 flex items-center max-w-1/2 justify-between">
+          <p class="text-lg font-semibold">Rating</p>
+          <div class="star-container flex gap-1 ml-2">
+            <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
+            <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
+            <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
+            <span class="fa fa-star text-yellow-500 cursor-pointer hover:scale-110 transition-transform duration-300"></span>
+            <span class="fa fa-star text-gray-400 cursor-pointer  hover:scale-110 transition-transform duration-300"></span>
           </div>
         </div>
-      </section>
+    
+        <!-- Offer Box -->
+        <div class="offer-box p-4 min-h-[200px] max-w-[400px] w-full my-4 border border-gray-300 rounded-md bg-white shadow-md transition-all duration-300 hover:shadow-lg hover:scale-[102%]">
+          <p class="font-semibold text-lg">Offers</p>
+          <ul class="list-disc ml-4 text-sm text-gray-600">
+            <li>10% off on first purchase</li>
+            <li>Free shipping on orders above Rs 500</li>
+            <li>Limited-time discount on selected items</li>
+          </ul>
+        </div>
+      </div>  
+    </div>
+  </section>
+  
       
-      <!-- FontAwesome for icons -->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
       
 
    
@@ -136,7 +134,7 @@
         // Add event listener to the "Buy Now" button
         document.getElementById("buyButton").addEventListener("click", function (e) {
             e.preventDefault();
-    const phone = "9846456919"; // Your WhatsApp number
+    const phone = "9766648092"; // Your WhatsApp number
     const productName = document.getElementById("product-name").textContent;
     // console.log(productName)
     const price = document.getElementById("product-price").textContent; // Get dynamically if needed

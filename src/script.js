@@ -17,6 +17,7 @@ const searchIcon = document.getElementById('search-icon');
 
 
 
+
 hamburgerIcon.addEventListener('click', () => {
 
     menuBar.classList.toggle('hidden');
@@ -24,14 +25,7 @@ hamburgerIcon.addEventListener('click', () => {
 closeMenuBar.addEventListener('click', () => {
     menuBar.classList.toggle('hidden');
 })
-cartIcon.addEventListener('click', () => {   
-    cartList.classList.toggle('hidden');
- 
 
-})
-closeCartList.addEventListener('click', () => {
-    cartList.classList.toggle('hidden');    
-})
 heartIcon.addEventListener('click', () => {
     heartIcon.src=`./assets/icons/heart-fill.png`;
 })
@@ -64,7 +58,7 @@ function scrollAnimation(...elementClasses) {
                     observer.unobserve(entry.target); // Stop observing after animation
                 }
             });
-        }, { threshold: 0.5 }); // Trigger when 50% is visible
+        }, { threshold: 0.3 }); // Trigger when 30% is visible
 
         elements.forEach(element => observer.observe(element));
     });

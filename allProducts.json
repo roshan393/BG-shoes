@@ -1,209 +1,170 @@
 [
-    {
-      "name": "Men's Running Shoes",
-      "price": 5000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Sneakers",
-      "price": 6000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Heels",
-      "price": 4500,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Sandals",
-      "price": 3000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Running Shoes",
-      "price": 5000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Sneakers",
-      "price": 6000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Heels",
-      "price": 4500,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Sandals",
-      "price": 3000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Running Shoes",
-      "price": 5000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Sneakers",
-      "price": 6000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Heels",
-      "price": 4500,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Sandals",
-      "price": 3000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Running Shoes",
-      "price": 5000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Men's Sneakers",
-      "price": 6000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Heels",
-      "price": 4500,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-    {
-      "name": "Women's Sandals",
-      "price": 3000,
-      "image": "https://static.wixstatic.com/media/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg/v1/fill/w_209,h_278,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/c837a6_9335e8829eb14fb1b1502585508cfb76~mv2.jpg"
-    },
-  
-    
-      {
-          "name": "Nike Air Max Kids",
-          "price": 45,
-          "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee6bf7fa-83ed-4d38-a39f-6dc6d0f0f6d7/air-max-excee-shoe.png"
-      },
-      {
-          "name": "Adidas Superstar Kids",
-          "price": 50,
-          "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2e9179b5f10f41a8bba3ad44015f58c6_9366/Superstar_Shoes_White_FV3654_01_standard.jpg"
-      },
-      {
-          "name": "Puma Future Rider Kids",
-          "price": 40,
-          "image": "https://cdn.puma.com/media/catalog/product/3/8/382044_02.jpg"
-      },
-      {
-          "name": "Reebok Classic Leather Kids",
-          "price": 48,
-          "image": "https://reebok.com/classic-leather-kids.jpg"
-      },
-      {
-          "name": "New Balance 574 Kids",
-          "price": 55,
-          "image": "https://newbalance.com/kids-574.jpg"
-      },
-      {
-          "name": "Converse Chuck Taylor Kids",
-          "price": 38,
-          "image": "https://converse.com/chuck-taylor-kids.jpg"
-      },
-      {
-          "name": "Vans Old Skool Kids",
-          "price": 42,
-          "image": "https://images.vans.com/is/image/Vans/VN000W9T6BT-ALT1"
-      },
-      {
-          "name": "Under Armour Curry Kids",
-          "price": 60,
-          "image": "https://underarmour.com/kids-curry.jpg"
-      },
-      {
-          "name": "Skechers Energy Lights",
-          "price": 53,
-          "image": "https://skechers.com/kids-energy-lights.jpg"
-      },
-      {
-          "name": "Fila Disruptor II Kids",
-          "price": 47,
-          "image": "https://fila.com/kids-disruptor-ii.jpg"
-      },
-      {
-          "name": "Jordan Jumpman Kids",
-          "price": 65,
-          "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f9b8f1ad-4e6e-4bdb-8191-67878e9f2335/jordan-jumpman-shoe-kids.jpg"
-      },
-      {
-          "name": "Nike Flex Runner Kids",
-          "price": 43,
-          "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/df6d8e91-4a8d-4f10-998e-39e96f328f12/flex-runner-2-shoe-kids.jpg"
-      },
-      {
-          "name": "Adidas NMD Kids",
-          "price": 58,
-          "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c2878ad293e44a6a6ebad9b001dfaae_9366/NMD_R1_Shoes_Black_FY3667_01_standard.jpg"
-      },
-      {
-          "name": "Puma RS-X Kids",
-          "price": 52,
-          "image": "https://cdn.puma.com/media/catalog/product/3/9/392410_01.jpg"
-      },
-      {
-          "name": "Nike Revolution 6 Kids",
-          "price": 40,
-          "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f8e77d61-4bb2-448d-ae2b-2cf96a7fdd7d/revolution-6-shoe-kids.jpg"
-      },
-      {
-          "name": "Adidas Ultraboost Kids",
-          "price": 65,
-          "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4d8ff580f79c4483aa12ad9c010d6bf6_9366/Ultraboost_21_Shoes_White_FY0377_01_standard.jpg"
-      },
-      {
-          "name": "New Balance Fresh Foam Kids",
-          "price": 54,
-          "image": "https://newbalance.com/fresh-foam-kids.jpg"
-      },
-      {
-          "name": "Vans Sk8-Hi Kids",
-          "price": 45,
-          "image": "https://images.vans.com/is/image/Vans/VN0A32R3BKA-ALT1"
-      },
-      {
-          "name": "Nike Court Borough Low",
-          "price": 46,
-          "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4e26f8c3-20b5-4c12-a5e6-bc52a1f61c94/court-borough-low-2-shoe-kids.jpg"
-      },
-      {
-          "name": "Adidas Forum Low Kids",
-          "price": 49,
-          "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b3d9fdf087614c06a9a3ad4c011a2c15_9366/Forum_Low_Shoes_White_GW6354_01_standard.jpg"
-      },
-      {
-          "name": "Reebok Zig Kinetica Kids",
-          "price": 51,
-          "image": "https://reebok.com/zig-kinetica-kids.jpg"
-      },
-      {
-          "name": "Skechers D'Lites Kids",
-          "price": 44,
-          "image": "https://skechers.com/kids-dlites.jpg"
-      },
-      {
-          "name": "Fila Ray Tracer Kids",
-          "price": 41,
-          "image": "https://fila.com/kids-ray-tracer.jpg"
-      },
-      {
-          "name": "Nike Air Force 1 Kids",
-          "price": 55,
-          "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/3a0987ee-2c27-408b-b5d7-cd5e63df4235/air-force-1-kids.jpg"
-      }
-  
-  
-  ]
+  {
+    "name": "Blue Duck Print Sandal",
+    "price": 1300,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/06/Blue-Duck-Print-Sandal-small.jpg.webp"
+},
+{
+    "name": "Jordan Shoe",
+    "price": 1700,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/04/jordan-shoe2-small.jpeg.webp"
+},
+{
+    "name": "Duck Print Sandal",
+    "price": 1300,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/04/duck-print-sandal2-small.jpeg"
+},
+{
+    "name": "Panda Print Sandal",
+    "price": 1300,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/03/panda-print-sandal-2-small.jpeg.webp"
+},
+{
+    "name": "Boy Laceup Sneaker",
+    "price": 1500,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/02/boy-laceup-sneaker-2-small.jpeg.webp"
+},
+{
+    "name": "Baby Sneaker",
+    "price": 1400,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/02/baby-sneaker-2-small.jpeg.webp"
+},
+{
+    "name": "Star Print Sneaker",
+    "price": 1450,
+    "image": "https://www.maayus.com/wp-content/uploads/2025/02/star-print-sneaker2-small.jpeg.webp"
+},
+{
+    "name": "Black Fur Boots",
+    "price": 1350,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/12/Black-Fur-Boots-1-small.jpg.webp"
+},
+{
+    "name": "Army Green Boot for Babies",
+    "price": 1350,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/12/Army-Green-boot-for-babies-1-small.jpg.webp"
+},
+{
+    "name": "Flower Print Sneaker",
+    "price": 1550,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/09/Flower-Print-Sneaker-min-small.jpg.webp"
+},
+{
+    "name": "Green Black Colorblock Sneaker",
+    "price": 1550,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/09/Green-Black-Colorblock-Sneaker-min-small.jpg.webp"
+},
+{
+    "name": "Kids Camouflage Print Black Sneaker",
+    "price": 1600,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/09/Kids-Camouflage-Print-Black-Sneaker-small.jpg.webp"
+},
+{
+    "name": "Kids Green Sneaker",
+    "price": 1500,
+    "image": "https://www.maayus.com/wp-content/uploads/2024/08/kids-green-sneaker1-small.jpg.webp"
+},
+{
+  "name": "Men's Sport Shoes (Black)",
+  "price": "Rs. 2,800",
+  "image": "https://img.drz.lazcdn.com/static/np/p/1b0d593fedac2b3efe162e0f4e3a8b19.jpg_400x400q75.avif"
+},
+{
+  "name": "Running Sports Shoes for Men",
+  "price": "Rs. 1,299",
+  "image": "https://img.drz.lazcdn.com/static/np/p/b25dd279a6d32148c98251d60807a8dc.jpg_400x400q75.avif"
+},
+{
+  "name": "2024 New Sports Student Ultra Light Shock Absorbing Running Shoes",
+  "price": "Rs. 5,168",
+  "image": "https://img.drz.lazcdn.com/static/np/p/902495f90fae8b0d7b43bc52e7b09ab9.jpg_400x400q75.avif"
+},
+{
+  "name": "Classic Unisex Shoes by Jutta Ghar Nepal",
+  "price": "Rs. 2,199",
+  "image": "https://img.drz.lazcdn.com/static/np/p/db82f040cf8090172604d67d0304caa1.jpg_400x400q75.avif"
+},
+{
+  "name": "Slazenger Grey Running Shoes for Men SLR10336",
+  "price": "Price not available",
+  "image": "https://img.drz.lazcdn.com/static/np/p/409ebb8fe4aa4787c82e7e2c13785612.jpg_400x400q75.avif"
+},
+{
+  "name": "Men's Sports Shoes Sneakers with Carbon Plate",
+  "price": "Rs. 3,938",
+  "image": "https://img.drz.lazcdn.com/static/np/p/43cccf01eafbb1905f0acd8924cfc918.jpg_400x400q75.avif"
+},
+{
+  "name": "Sonam Gears Black Shoes (1708)",
+  "price": "Rs. 5,375",
+  "image": "https://img.drz.lazcdn.com/static/np/p/35e411324fcba15562724cbf1d50512a.jpg_400x400q75.avif"
+},
+{
+  "name": "Slazenger Silver Running Shoes for Men SLR10335",
+  "price": "Price not available",
+  "image": "https://img.drz.lazcdn.com/static/np/p/75a6ced0dbf309f38c0093ea703ebff6.jpg_400x400q75.avif"
+},
+{
+  "name": "Caliber Shoes White Casual Lace Up Shoes for Men (656)",
+  "price": "Rs. 2,250",
+  "image": "https://img.drz.lazcdn.com/static/np/p/76d85dda85c019a5f6b71a21f5bb56e3.jpg_400x400q75.avif"
+},
+{
+  "name": "Caliber Shoes Grey Casual Lace Up Shoes for Men (656 O)",
+  "price": "Rs. 2,250",
+  "image": "https://img.drz.lazcdn.com/static/np/p/44bd1474b4dcd18f225cd32de34b077c.jpg_400x400q75.avif"
+}, 
+{
+  "name": "Sandal 1",
+  "price": 1500,
+  "image": "https://img.drz.lazcdn.com/static/np/p/0fcc448ed0c90c96018c427ceb4f1fba.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 2",
+  "price": 1200,
+  "image": "https://img.drz.lazcdn.com/g/kf/S16e3599167de45568ffccaf05541bf6ds.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 3",
+  "price": 1800,
+  "image": "https://img.drz.lazcdn.com/static/np/p/6c8ddfc0fa097a220bc53a48b211366c.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 4",
+  "price": 2500,
+  "image": "https://img.drz.lazcdn.com/static/np/p/d97ec9fc8fdf24dfcdff0ba2dd1466ba.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 5",
+  "price": 2000,
+  "image": "https://img.drz.lazcdn.com/g/kf/Sb46772e8c4ee4daca1dbce7f233f1057r.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 6",
+  "price": 1400,
+  "image": "https://img.drz.lazcdn.com/static/np/p/146abec2aab89ae818f31215d2f36097.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 7",
+  "price": 1700,
+  "image": "https://img.drz.lazcdn.com/static/np/p/e0403110e5d96b92c538e4862ba5ccbe.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 8",
+  "price": 2200,
+  "image": "https://img.drz.lazcdn.com/static/np/p/a5d8867c410ac38c569926aee077dfd3.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 9",
+  "price": 1900,
+  "image": "https://img.drz.lazcdn.com/g/kf/S26ed0378bb494bb7a31cd364a9315124r.jpg_400x400q75.avif"
+},
+{
+  "name": "Sandal 10",
+  "price": 1500,
+  "image": "https://img.drz.lazcdn.com/static/np/p/390b5132bd864fab8116de129ac8f657.jpg_400x400q75.avif"
+}
+]
   
   
     

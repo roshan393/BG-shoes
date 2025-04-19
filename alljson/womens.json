@@ -1,127 +1,52 @@
 [
-  {
-      "name": "Nike Air Max 270 Women's",
-      "price": 129.99,
-      "image": "https://images.nike.com/is/image/DotCom/air-max-270-womens"
-  },
-  {
-      "name": "Adidas Ultraboost 22 Women's",
-      "price": 149.99,
-      "image": "https://assets.adidas.com/images/ultraboost-22-womens.jpg"
-  },
-  {
-      "name": "Puma Cali Dream Women's Sneakers",
-      "price": 89.99,
-      "image": "https://cdn.puma.com/cali-dream-womens.jpg"
-  },
-  {
-      "name": "Reebok Club C 85 Women's",
-      "price": 74.99,
-      "image": "https://reebok.com/club-c-85-womens.jpg"
-  },
-  {
-      "name": "New Balance 574 Women's",
-      "price": 79.99,
-      "image": "https://newbalance.com/574-womens.jpg"
-  },
-  {
-      "name": "Vans Old Skool Women's",
-      "price": 64.99,
-      "image": "https://vans.com/old-skool-womens.jpg"
-  },
-  {
-      "name": "Converse Chuck Taylor All Star Lift",
-      "price": 69.99,
-      "image": "https://converse.com/chuck-taylor-lift-womens.jpg"
-  },
-  {
-      "name": "Asics Gel-Kayano 29 Women's",
-      "price": 159.99,
-      "image": "https://asics.com/gel-kayano-29-womens.jpg"
-  },
-  {
-      "name": "Skechers D'Lites Women's",
-      "price": 69.99,
-      "image": "https://skechers.com/dlites-womens.jpg"
-  },
-  {
-      "name": "Under Armour HOVR Phantom 2 Women's",
-      "price": 109.99,
-      "image": "https://underarmour.com/hovr-phantom-2-womens.jpg"
-  },
-  {
-      "name": "Nike ZoomX Invincible Run Women's",
-      "price": 179.99,
-      "image": "https://nike.com/zoomx-invincible-run-womens.jpg"
-  },
-  {
-      "name": "Adidas Forum Bold Women's",
-      "price": 99.99,
-      "image": "https://adidas.com/forum-bold-womens.jpg"
-  },
-  {
-      "name": "Puma RS-X Women's Sneakers",
-      "price": 99.99,
-      "image": "https://puma.com/rs-x-womens.jpg"
-  },
-  {
-      "name": "Reebok Nano X2 Women's",
-      "price": 129.99,
-      "image": "https://reebok.com/nano-x2-womens.jpg"
-  },
-  {
-      "name": "New Balance Fresh Foam Roav Women's",
-      "price": 84.99,
-      "image": "https://newbalance.com/fresh-foam-roav-womens.jpg"
-  },
-  {
-      "name": "Vans Slip-On Checkerboard Women's",
-      "price": 59.99,
-      "image": "https://vans.com/slip-on-checkerboard-womens.jpg"
-  },
-  {
-      "name": "Converse Run Star Hike Women's",
-      "price": 109.99,
-      "image": "https://converse.com/run-star-hike-womens.jpg"
-  },
-  {
-      "name": "Asics Novablast 3 Women's",
-      "price": 139.99,
-      "image": "https://asics.com/novablast-3-womens.jpg"
-  },
-  {
-      "name": "Skechers Max Cushioning Elite Women's",
-      "price": 79.99,
-      "image": "https://skechers.com/max-cushioning-elite-womens.jpg"
-  },
-  {
-      "name": "Under Armour Charged Assert 9 Women's",
-      "price": 74.99,
-      "image": "https://underarmour.com/charged-assert-9-womens.jpg"
-  },
-  {
-      "name": "Nike Court Vision Low Women's",
-      "price": 69.99,
-      "image": "https://nike.com/court-vision-low-womens.jpg"
-  },
-  {
-      "name": "Adidas NMD_R1 Women's",
-      "price": 140.00,
-      "image": "https://adidas.com/nmd-r1-womens.jpg"
-  },
-  {
-      "name": "Puma Future Rider Women's",
-      "price": 84.99,
-      "image": "https://puma.com/future-rider-womens.jpg"
-  },
-  {
-      "name": "Reebok Classic Leather Women's",
-      "price": 74.99,
-      "image": "https://reebok.com/classic-leather-womens.jpg"
-  },
-  {
-      "name": "New Balance 327 Women's",
-      "price": 99.99,
-      "image": "https://newbalance.com/327-womens.jpg"
-  }
+    {
+        "name": "Sandal 1",
+        "price": 1500,
+        "image": "https://img.drz.lazcdn.com/static/np/p/0fcc448ed0c90c96018c427ceb4f1fba.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 2",
+        "price": 1200,
+        "image": "https://img.drz.lazcdn.com/g/kf/S16e3599167de45568ffccaf05541bf6ds.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 3",
+        "price": 1800,
+        "image": "https://img.drz.lazcdn.com/static/np/p/6c8ddfc0fa097a220bc53a48b211366c.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 4",
+        "price": 2500,
+        "image": "https://img.drz.lazcdn.com/static/np/p/d97ec9fc8fdf24dfcdff0ba2dd1466ba.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 5",
+        "price": 2000,
+        "image": "https://img.drz.lazcdn.com/g/kf/Sb46772e8c4ee4daca1dbce7f233f1057r.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 6",
+        "price": 1400,
+        "image": "https://img.drz.lazcdn.com/static/np/p/146abec2aab89ae818f31215d2f36097.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 7",
+        "price": 1700,
+        "image": "https://img.drz.lazcdn.com/static/np/p/e0403110e5d96b92c538e4862ba5ccbe.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 8",
+        "price": 2200,
+        "image": "https://img.drz.lazcdn.com/static/np/p/a5d8867c410ac38c569926aee077dfd3.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 9",
+        "price": 1900,
+        "image": "https://img.drz.lazcdn.com/g/kf/S26ed0378bb494bb7a31cd364a9315124r.jpg_400x400q75.avif"
+    },
+    {
+        "name": "Sandal 10",
+        "price": 1500,
+        "image": "https://img.drz.lazcdn.com/static/np/p/390b5132bd864fab8116de129ac8f657.jpg_400x400q75.avif"
+    }
 ]

@@ -1,19 +1,52 @@
 [
-    
-    {
-      "name": "Junior sport",
-      "price": "100000",
-      "image": "https://static.wixstatic.com/media/c837a6_368addd3225e4019b4ef4d4741d451ea~mv2.jpg"
-    },
-    {
-      "name": "Sports Master",
-      "price": "120000",
-      "image": "https://static.wixstatic.com/media/c837a6_368addd3225e4019b4ef4d4741d451ea~mv2.jpg"
-    },
-    {
-      "name": "Active Runner",
-      "price": "95000",
-      "image": "https://static.wixstatic.com/media/c837a6_368addd3225e4019b4ef4d4741d451ea~mv2.jpg"
-    }
-  
+  {
+      "name": "Men's Sport Shoes (Black)",
+      "price": "Rs. 2,800",
+      "image": "https://img.drz.lazcdn.com/static/np/p/1b0d593fedac2b3efe162e0f4e3a8b19.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Running Sports Shoes for Men",
+      "price": "Rs. 1,299",
+      "image": "https://img.drz.lazcdn.com/static/np/p/b25dd279a6d32148c98251d60807a8dc.jpg_400x400q75.avif"
+  },
+  {
+      "name": "2024 New Sports Student Ultra Light Shock Absorbing Running Shoes",
+      "price": "Rs. 5,168",
+      "image": "https://img.drz.lazcdn.com/static/np/p/902495f90fae8b0d7b43bc52e7b09ab9.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Classic Unisex Shoes by Jutta Ghar Nepal",
+      "price": "Rs. 2,199",
+      "image": "https://img.drz.lazcdn.com/static/np/p/db82f040cf8090172604d67d0304caa1.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Slazenger Grey Running Shoes for Men SLR10336",
+      "price": "Price not available",
+      "image": "https://img.drz.lazcdn.com/static/np/p/409ebb8fe4aa4787c82e7e2c13785612.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Men's Sports Shoes Sneakers with Carbon Plate",
+      "price": "Rs. 3,938",
+      "image": "https://img.drz.lazcdn.com/static/np/p/43cccf01eafbb1905f0acd8924cfc918.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Sonam Gears Black Shoes (1708)",
+      "price": "Rs. 5,375",
+      "image": "https://img.drz.lazcdn.com/static/np/p/35e411324fcba15562724cbf1d50512a.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Slazenger Silver Running Shoes for Men SLR10335",
+      "price": "Price not available",
+      "image": "https://img.drz.lazcdn.com/static/np/p/75a6ced0dbf309f38c0093ea703ebff6.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Caliber Shoes White Casual Lace Up Shoes for Men (656)",
+      "price": "Rs. 2,250",
+      "image": "https://img.drz.lazcdn.com/static/np/p/76d85dda85c019a5f6b71a21f5bb56e3.jpg_400x400q75.avif"
+  },
+  {
+      "name": "Caliber Shoes Grey Casual Lace Up Shoes for Men (656 O)",
+      "price": "Rs. 2,250",
+      "image": "https://img.drz.lazcdn.com/static/np/p/44bd1474b4dcd18f225cd32de34b077c.jpg_400x400q75.avif"
+  }
 ]

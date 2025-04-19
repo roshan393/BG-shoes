@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us | BG Shoes House</title>
+  <meta name="description" content="BG shoes house official website for all your footwear needs from Nepal, Butwal-9.">
+    <meta name="robots" content="index,follow">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+<link rel="stylesheet" href="./src/output.css">
+<link rel="stylesheet" href="./src/style.css">
+<script src="./src/productbind.js" defer></script>
+
+<script src="./src/script.js" defer></script>
+  <style>
+   
+
+    
+
+    body {
+      background: url('https://images.unsplash.com/photo-1600181954050-441b4c7c78b3?auto=format&fit=crop&w=1774&q=80') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.95);
+      min-height: 100vh;
+      padding: 30px 15px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 40px;
+      background: white;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .logo {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .logo h1 {
+      font-size: 3rem;
+      color: #e67e22;
+      font-weight: bold;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      color: #e67e22;
+      font-size: 1.8rem;
+      margin-top: 30px;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-top: 15px;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 10px;
+      font-size: 1.05rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+
+      .logo h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.4rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-[#d3d4c7] mx-auto max-w-[1540px] w-full">
+
+    <div class="header-container flex items-center justify-between text-black shadow-2xl h-[3rem]">
+
+        <div class="logo ml-4 flex items-center">
+         <img loading="lazy" class="w-[50px] h-[50px]" src="./assets/images/bg-shoes-logo.png" alt="logo">
+          <h3 class="text-2xl ml-[1rem]">BG shoes </h3>
+        </div>
+         <div class="flex items-center gap-1 sm:gap-8 relative">
+          <div class="head-input border border-black rounded-full max-w-[300px] h-[2rem] hidden sm:flex shrink-0 items-center gap-2 relative">
+            <img loading="lazy" id="search-icon" class="w-[20px] ml-2 h-[20px] cursor-pointer" src="./assets/icons/search-interface-symbol.png" alt="search-interface-symbol">
+            <input id="search-input" class="outline-none border-none p-2 w-full" type="text" placeholder="Search here">
+            <ul id="suggestions-list" class="absolute top-[40px] left-0 w-full bg-white border border-gray-300 rounded-md hidden shadow-lg z-20"></ul>
+        </div>
+
+            <img loading="lazy" class="heart-icon  w-[20px] cursor-pointer ml-2  h-[20px]" src="./assets/icons/heart.png" alt="heart-icon">
+            <img loading="lazy" class="hamburger-icon cursor-pointer bg-transparent rounded-full hover:bg-white hover:shadow-[0_0_15px_5px_rgba(0,0,0,0.5)] transition-all mr-[1rem] w-[20px] ml-2  h-[20px]" src="./assets/icons/hamburger.png" alt="hamburger">
+             <div class="menu-bar z-10 hidden absolute top-[3rem]  right-[1rem] h-[200px] md:h-[300px] w-[200px] md:max-w-[300px]  border border-black bg-amber-100">
+              <i id="close-menu-bar"  class="fa-solid fa-x absolute right-4 top-4 cursor-pointer transition-transform duration-200 ease-in-out  hover:rotate-180"></i>
+             
+                <ul id="" class="px-4  py-4 flex flex-col gap-2 md:gap-6">
+                  <li class="cursor-pointer">
+                    <a href="index.html" class="hover:underline">Home</a>
+                  </li>
+                  <li class=" relative cursor-pointer group">
+                    <a href="#" class="">Shop By Category</a>
+                    <span class="transition-transform duration-200 ease-in-out inline-block">
+                      <i id="dropdown-bar" class="fa-solid fa-caret-down text-xl ml-auto"></i>
+                    </span>
+                    <!-- Dropdown Menu -->
+                    <ul id="category-list" class="px-4 hidden py-4 absolute left-0  bg-white border group-hover:opacity-100 transition-opacity duration-300">
+                      <li><a href="allproducts.html?category=Mens" class="hover:underline">Mens</a></li>
+                      <li><a href="allproducts.html?category=Womens" class="hover:underline">Women</a></li>
+                      <li><a href="allproducts.html?category=Kids" class="hover:underline">Kids</a></li>
+                      <li><a href="#" class="hover:underline">Sneakers</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="allProducts.html?category=Allproducts" class="hover:underline">New Arrivals</a></li>
+                  <li><a href="index.html#footer" class="hover:underline">Contact</a></li>
+                  <li><a href="about.html" class="hover:underline">About Us</a></li>
+                </ul>
+              </div>
+              
+              <div class="cart-list z-10 hidden absolute w-[280px] md:max-w-[400px] min-h-[150px] md:min-h-[200px] border bg-amber-100 right-[1rem] md:right-[3rem] top-[3rem] ">
+              <i id="close-cart-list"  class="fa-solid fa-x absolute top-1 right-1 cursor-pointer transition-transform duration-200 ease-in-out  hover:rotate-180"></i>
+             
+                <ul class="px-4  py-4 flex flex-col gap-6">
+                  <li id="cart-item" class="cursor-pointer">
+                    <a href="#" class="hover:underline">Jordan 6 price: <span class="pl-4">RS 100,000</span> <i id="remove-cart-item" class="fa-solid fa-delete-left pl-4"></i></a>
+                  </li>
+                </ul>
+                  
+              </div>
+              
+             </div>
+         
+       
+    </div>
+   </header>
+  <div class="overlay">
+    <div class="container">
+      <div class="logo">
+        <h1>BG Shoes House 👟</h1>
+      </div>
+      <p>
+        Welcome to <strong>BG Shoes House</strong> – Where Style Meets Comfort!
+      </p>
+      <p>
+        At <strong>BG Shoes House</strong>, we believe that a great pair of shoes can take you anywhere. 
+        Founded with a passion for fashion and love for comfort, our mission is to provide high-quality, 
+        stylish, and affordable footwear for every step of your journey.
+      </p>
+      <p>
+        Whether you're walking into a meeting, heading out with friends, or just going about your day — 
+        we’ve got the perfect pair for you.
+      </p>
+
+      <h2>👞 Why Choose BG Shoes House?</h2>
+      <ul>
+        <li><strong>Premium Quality:</strong> Durable, comfortable shoes made from top materials.</li>
+        <li><strong>Trendy Styles:</strong> Stay ahead of the fashion curve with fresh, modern designs.</li>
+        <li><strong>Affordable Prices:</strong> Look good without spending a fortune.</li>
+        <li><strong>Customer First:</strong> We’re here to help with anything you need.</li>
+      </ul>
+
+      <h2>Our Promise</h2>
+      <p>
+        We don’t just sell shoes — we deliver confidence, comfort, and style in every step. 
+        Thank you for choosing <strong>BG Shoes House</strong> — where every journey begins with trust.
+      </p>
+    </div>
+  </div>
+</body>
+</html>

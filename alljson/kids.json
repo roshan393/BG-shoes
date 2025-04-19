@@ -1,122 +1,67 @@
 [
     {
-        "name": "Nike Air Max Kids",
-        "price": 45,
-        "image": "https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/ee6bf7fa-83ed-4d38-a39f-6dc6d0f0f6d7/air-max-excee-shoe.png"
+        "name": "Blue Duck Print Sandal",
+        "price": 1300,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/06/Blue-Duck-Print-Sandal-small.jpg.webp"
     },
     {
-        "name": "Adidas Superstar Kids",
-        "price": 50,
-        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/2e9179b5f10f41a8bba3ad44015f58c6_9366/Superstar_Shoes_White_FV3654_01_standard.jpg"
+        "name": "Jordan Shoe",
+        "price": 1700,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/04/jordan-shoe2-small.jpeg.webp"
     },
     {
-        "name": "Puma Future Rider Kids",
-        "price": 40,
-        "image": "https://cdn.puma.com/media/catalog/product/3/8/382044_02.jpg"
+        "name": "Duck Print Sandal",
+        "price": 1300,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/04/duck-print-sandal2-small.jpeg"
     },
     {
-        "name": "Reebok Classic Leather Kids",
-        "price": 48,
-        "image": "https://reebok.com/classic-leather-kids.jpg"
+        "name": "Panda Print Sandal",
+        "price": 1300,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/03/panda-print-sandal-2-small.jpeg.webp"
     },
     {
-        "name": "New Balance 574 Kids",
-        "price": 55,
-        "image": "https://newbalance.com/kids-574.jpg"
+        "name": "Boy Laceup Sneaker",
+        "price": 1500,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/02/boy-laceup-sneaker-2-small.jpeg.webp"
     },
     {
-        "name": "Converse Chuck Taylor Kids",
-        "price": 38,
-        "image": "https://converse.com/chuck-taylor-kids.jpg"
+        "name": "Baby Sneaker",
+        "price": 1400,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/02/baby-sneaker-2-small.jpeg.webp"
     },
     {
-        "name": "Vans Old Skool Kids",
-        "price": 42,
-        "image": "https://images.vans.com/is/image/Vans/VN000W9T6BT-ALT1"
+        "name": "Star Print Sneaker",
+        "price": 1450,
+        "image": "https://www.maayus.com/wp-content/uploads/2025/02/star-print-sneaker2-small.jpeg.webp"
     },
     {
-        "name": "Under Armour Curry Kids",
-        "price": 60,
-        "image": "https://underarmour.com/kids-curry.jpg"
+        "name": "Black Fur Boots",
+        "price": 1350,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/12/Black-Fur-Boots-1-small.jpg.webp"
     },
     {
-        "name": "Skechers Energy Lights",
-        "price": 53,
-        "image": "https://skechers.com/kids-energy-lights.jpg"
+        "name": "Army Green Boot for Babies",
+        "price": 1350,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/12/Army-Green-boot-for-babies-1-small.jpg.webp"
     },
     {
-        "name": "Fila Disruptor II Kids",
-        "price": 47,
-        "image": "https://fila.com/kids-disruptor-ii.jpg"
+        "name": "Flower Print Sneaker",
+        "price": 1550,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/09/Flower-Print-Sneaker-min-small.jpg.webp"
     },
     {
-        "name": "Jordan Jumpman Kids",
-        "price": 65,
-        "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f9b8f1ad-4e6e-4bdb-8191-67878e9f2335/jordan-jumpman-shoe-kids.jpg"
+        "name": "Green Black Colorblock Sneaker",
+        "price": 1550,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/09/Green-Black-Colorblock-Sneaker-min-small.jpg.webp"
     },
     {
-        "name": "Nike Flex Runner Kids",
-        "price": 43,
-        "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/df6d8e91-4a8d-4f10-998e-39e96f328f12/flex-runner-2-shoe-kids.jpg"
+        "name": "Kids Camouflage Print Black Sneaker",
+        "price": 1600,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/09/Kids-Camouflage-Print-Black-Sneaker-small.jpg.webp"
     },
     {
-        "name": "Adidas NMD Kids",
-        "price": 58,
-        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4c2878ad293e44a6a6ebad9b001dfaae_9366/NMD_R1_Shoes_Black_FY3667_01_standard.jpg"
-    },
-    {
-        "name": "Puma RS-X Kids",
-        "price": 52,
-        "image": "https://cdn.puma.com/media/catalog/product/3/9/392410_01.jpg"
-    },
-    {
-        "name": "Nike Revolution 6 Kids",
-        "price": 40,
-        "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/f8e77d61-4bb2-448d-ae2b-2cf96a7fdd7d/revolution-6-shoe-kids.jpg"
-    },
-    {
-        "name": "Adidas Ultraboost Kids",
-        "price": 65,
-        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4d8ff580f79c4483aa12ad9c010d6bf6_9366/Ultraboost_21_Shoes_White_FY0377_01_standard.jpg"
-    },
-    {
-        "name": "New Balance Fresh Foam Kids",
-        "price": 54,
-        "image": "https://newbalance.com/fresh-foam-kids.jpg"
-    },
-    {
-        "name": "Vans Sk8-Hi Kids",
-        "price": 45,
-        "image": "https://images.vans.com/is/image/Vans/VN0A32R3BKA-ALT1"
-    },
-    {
-        "name": "Nike Court Borough Low",
-        "price": 46,
-        "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/4e26f8c3-20b5-4c12-a5e6-bc52a1f61c94/court-borough-low-2-shoe-kids.jpg"
-    },
-    {
-        "name": "Adidas Forum Low Kids",
-        "price": 49,
-        "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/b3d9fdf087614c06a9a3ad4c011a2c15_9366/Forum_Low_Shoes_White_GW6354_01_standard.jpg"
-    },
-    {
-        "name": "Reebok Zig Kinetica Kids",
-        "price": 51,
-        "image": "https://reebok.com/zig-kinetica-kids.jpg"
-    },
-    {
-        "name": "Skechers D'Lites Kids",
-        "price": 44,
-        "image": "https://skechers.com/kids-dlites.jpg"
-    },
-    {
-        "name": "Fila Ray Tracer Kids",
-        "price": 41,
-        "image": "https://fila.com/kids-ray-tracer.jpg"
-    },
-    {
-        "name": "Nike Air Force 1 Kids",
-        "price": 55,
-        "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/3a0987ee-2c27-408b-b5d7-cd5e63df4235/air-force-1-kids.jpg"
+        "name": "Kids Green Sneaker",
+        "price": 1500,
+        "image": "https://www.maayus.com/wp-content/uploads/2024/08/kids-green-sneaker1-small.jpg.webp"
     }
 ]
